@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (5.10.2)
+  - lottie-ios (4.5.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - OpenVPNAdapter (0.7.0):
+    - OpenVPNAdapter/ASIO (= 0.7.0)
+    - OpenVPNAdapter/LZ4 (= 0.7.0)
+    - OpenVPNAdapter/mbedTLS (= 0.7.0)
+    - OpenVPNAdapter/OpenVPN3 (= 0.7.0)
+    - OpenVPNAdapter/OpenVPNAdapter (= 0.7.0)
+    - OpenVPNAdapter/OpenVPNClient (= 0.7.0)
+  - OpenVPNAdapter/ASIO (0.7.0)
+  - OpenVPNAdapter/LZ4 (0.7.0)
+  - OpenVPNAdapter/mbedTLS (0.7.0)
+  - OpenVPNAdapter/OpenVPN3 (0.7.0)
+  - OpenVPNAdapter/OpenVPNAdapter (0.7.0)
+  - OpenVPNAdapter/OpenVPNClient (0.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios (~> 4.2)
+  - NVActivityIndicatorView
+  - OpenVPNAdapter (from `https://github.com/ss-abramchuk/OpenVPNAdapter.git`, tag `0.7.0`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - NVActivityIndicatorView
+
+EXTERNAL SOURCES:
+  OpenVPNAdapter:
+    :git: https://github.com/ss-abramchuk/OpenVPNAdapter.git
+    :tag: 0.7.0
+
+CHECKOUT OPTIONS:
+  OpenVPNAdapter:
+    :git: https://github.com/ss-abramchuk/OpenVPNAdapter.git
+    :tag: 0.7.0
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  OpenVPNAdapter: 173fcc4c11a3a8a83ae8d250c079cdc5b9fb8ff1
+
+PODFILE CHECKSUM: 2d9663df527e695fe4402fd2e21343348cebd623
+
+COCOAPODS: 1.16.2
